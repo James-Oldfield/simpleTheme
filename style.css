@@ -138,13 +138,13 @@ strong{
 }
 
 .hire-me a:hover{
-    color: #e74c3c;
+    color: #000;
 }
 
 .projects{
     padding-top: 45px;
     padding-bottom: 45px;
-    background: #b1b4b9;
+    background: #9AA9CC;
 }
 
 .projects hr{
@@ -156,11 +156,11 @@ strong{
 .projects h4 a{
     font-size: 22px;
     display: inline-block;
-    color: #000;
+    color: #3d4351;
 }
 
 .projects a:hover{
-    color: #e74c3c;
+    color: #fff;
 }
 
 /*LANDING PAGE STYLES*/

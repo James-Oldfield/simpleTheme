@@ -17,7 +17,7 @@
 <!-- Availability section -->
   <div class="available">
 
-    <h2>I'm currently available <span>all year round</span> for bespoke web design and development projects.</h2>
+    <h2>Right now, i'm available <span>all year round</span> for bespoke web design and development projects.</h2>
 
   </div>
 
