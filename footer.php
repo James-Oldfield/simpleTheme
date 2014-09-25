@@ -26,6 +26,22 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/main.js"></script>
 
+          <script>
+           
+          $(document).ready(function(){
+           
+                  $(".work").hide();
+                  $(".projects").show();
+           
+              $('.projects').click(function(){
+              $(".work").slideToggle();
+              });
+           
+          });
+           
+          </script>
+
+
         <!--google analytics-->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

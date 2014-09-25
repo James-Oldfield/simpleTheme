@@ -123,6 +123,11 @@ strong{
     padding-top: 45px;
     padding-bottom: 45px;
     background: #3d4351;
+    position: relative;
+}
+
+.hire-me:hover{
+    background: #646974;
 }
 
 .hire-me hr{
@@ -141,10 +146,24 @@ strong{
     color: #000;
 }
 
+.hire-me span{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .projects{
     padding-top: 45px;
     padding-bottom: 45px;
     background: #9AA9CC;
+    position: relative;
+}
+
+.projects:hover{
+    background: #C2CBE0;
 }
 
 .projects hr{
@@ -153,13 +172,56 @@ strong{
     border: none;
 }
 
-.projects h4 a{
+.projects h4{
     font-size: 22px;
     display: inline-block;
     color: #3d4351;
 }
 
-.projects a:hover{
+.projects h4:hover{
+    color: #fff;
+}
+
+.projects span{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-link:focus {
+  outline: 0!important;
+}
+
+.work{
+    display: none;
+}
+
+.smiths{
+    padding: 45px 30px 45px 30px;
+    background: #27ae60;
+}
+
+.smiths a{
+    color: #abebc6;
+}
+
+.smiths p{
+    color: #fff;
+}
+
+.minimis{
+    padding: 45px 30px 45px 30px;
+    background: #2980b9;
+}
+
+.minimis a{
+    color: #a9cce3;
+}
+
+.minimis p{
     color: #fff;
 }
 

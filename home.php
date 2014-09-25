@@ -3,7 +3,7 @@
 
 <div class="text-center">
 
-<!-- About me section -->
+  <!-- About section -->
   <div class="about">
 
     <h2>I'm currently working as a freelance web developer in my free time; building everything from static portfolio-style webpages to fully fledged CMS sites.
@@ -14,34 +14,54 @@
 
   </div>
 
-<!-- Availability section -->
+  <!-- Availability section -->
   <div class="available">
 
     <h2>Right now, i'm available <span>all year round</span> for bespoke web design and development projects.</h2>
 
   </div>
 
-<!-- Hire me section -->
+  <!-- Hire me section -->
   <div class="hire-me">
 
-        <a href="mailto:hi@james-oldfield.co" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/mail-white.svg" width="65px"></a>
+    <a href="mailto:hi@james-oldfield.co" target="_blank"><span></span>
 
-        <hr>
+        <img src="<?php bloginfo('template_directory'); ?>/img/mail-white.svg" width="65px">
+
+          <hr>
 
         <h4><a href="mailto:hi@james-oldfield.co" target="_blank">HIRE ME</a></h4>
 
+    </a>
+
   </div>
 
-<!-- Projects section -->
+  <!-- Projects section -->
   <div class="projects">
 
-        <a href="/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/code.svg" width="65px"></a>
+        <button class="btn-link"><span></span>
 
-        <hr>
+          <img src="<?php bloginfo('template_directory'); ?>/img/code.svg" width="65px">
 
-        <h4><a href="/" target="_blank">RECENT WORK</a></h4>
+          <hr>
+
+          <h4>RECENT WORK</h4>
+          
+        </button>
         
   </div>
+
+    <div class="work">
+        <div class="smiths">
+            <a href="http://smithsmagazine.co.uk" target="_blank">SMITHS MAGAZINE SITE</a>
+            <p>A custom responsive Wordpress site for [smiths] magazine.</p>
+        </div>
+        
+        <div class="minimis">
+            <a href="http://de-minimis-theme.tumblr.com/" target="_blank">DE-MINIMIS</a>
+            <p>A free responsive minimalist theme for Tumblr with custom options built in.</p>
+        </div>
+    </div>
 
 </div>
             

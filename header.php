@@ -43,7 +43,7 @@
         <!--Description & Name-->
             <div class="name">
                 <h2><a href="/">Hi<span>.</span><br> I'm James<span>.</span></a></h2>
-                <h4>Front-end Web Developer/Designer &amp; geek.</h4>
+                <h4>Web Developer/Designer &amp; geek.</h4>
             </div>
  
         </div>
