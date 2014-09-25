@@ -1,0 +1,294 @@
+/*
+Theme Name: Personal
+Author: James Oldfield
+Author URI: http://james-oldfield.co
+Description: Personal theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: personal
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.single{
+    padding: 0 10% 0 10%!important;
+    background: #fff!important;
+}
+
+::selection {
+    background: #c0392b;
+    color: #fff;
+}
+::-moz-selection {
+    background: #c0392b;
+    color: #fff;
+}
+
+strong{
+    font-weight: 900;
+}
+
+/*Header*/
+
+.links a {
+    font-size: 18px;
+    font-weight: 900;
+    color: #e74c3c;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+.icon {
+    margin-top: 30px; }
+
+.name {
+    padding: 5px 0 0px 0;
+}
+
+.name h2 a{
+    font-size: 52px;
+    font-weight: bolder;
+    letter-spacing: 0.01em;
+    text-transform: none;
+    color: #3d4351;
+}
+
+.name span{
+    color: #e74c3c;
+}
+
+.name h4{
+    padding: 30px 0 60px 0;
+    font-style: italic;
+    color: #e74c3c;
+    font-size: 28px;
+}
+
+.header-links img{
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.header-links img{
+    opacity: 0.5;
+}
+
+.header-links img:hover{
+    transition: opacity 0.5s ease; 
+    opacity: 1;
+}
+
+/*HEADER-ABOUT*/
+
+.about{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    min-width: 100%;
+    background-color: #e74c3c;
+}
+
+.about h2{
+    color: #fff;
+    padding: 0 15px 0 15px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.about p {
+    color: #fff;
+    padding: 0 15px 0 15px;
+}
+
+.projects{
+    color: #FFC4C0;
+}
+
+.projects h4{
+    font-size: 16px;
+    border: solid 1px;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+}
+
+.projects hr{
+    max-width: 25px;
+    margin-top: 5px;
+}
+
+.projects a{
+    color: #fff;
+}
+
+.smiths{
+    padding: 30px;
+    background: #34495e;
+}
+
+.smiths p{
+    color: #82B6EA;
+}
+
+.smiths a:hover{
+    color: steelblue;
+}
+
+.minimis{
+    padding: 30px;
+    background: #27ae60;
+}
+
+.minimis p{
+    color: #7AFAAD;
+}
+
+.minimis a:hover{
+    color: DARKSEAGREEN;
+}
+
+/*LANDING PAGE STYLES*/
+
+.single h4{
+    font-size: 18px;
+    border: solid 1px;
+    display: inline-block;
+    margin-top: 60px;
+    padding: 10px 30px 10px 30px;
+    color: #e74c3c;
+}
+
+.home-title h4{
+    color: #000!important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border: solid #000 1px;
+    padding: 7px 30px 7px 30px;
+    font-size: 14px;
+}
+
+
+/*wordpress styles*/
+
+
+span p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+span p a{
+    color: #e74c3c;
+}
+
+span p a:hover{
+    transition: opacity 0.25s ease; 
+    text-decoration: none;
+    
+} 
+
+#content h2{
+    font-weight: bold;
+    margin-bottom: 50px;    
+}
+
+h2 a{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+p a{
+    border-bottom: 1px black dotted;
+}
+
+a{
+    color: #e74c3c;
+}
+
+a:hover{
+    transition: color 0.25s ease; 
+    color: #000;
+    text-decoration: none;
+}
+
+.post {
+    padding: 50px 0 50px 0;
+}
+
+p{
+    line-height: 30px;
+}
+
+#respond{
+    margin: 120px 0 0 0;
+    font-weight: 200;
+}
+
+#respond h3{
+    font-size: 18px;
+    color: #28282e;
+    text-transform: uppercase;
+}
+
+#respond small{
+    font-weight: 300;
+}
+
+textarea{
+    font-size: 16px;
+    color: #000;
+}
+
+input#submit{
+    color: #000;
+    text-transform: uppercase;
+}
+
+#author, #email, #url{
+    color: #000;
+}
+
+textarea#comment {
+	height: 200px;
+    width: 80%;
+    background-color: #fff;
+}
+
+.twitter{
+    padding-bottom: 10px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #ecf0f1;
+    color: #000;
+}
+
+.small{
+    color: #000;
+    font-size: 12px !important;
+    font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+    font-weight: 100;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+/*end global*/
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+        .single{
+            padding: 0 15% 0 15%!important;
+        }
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+        .single{
+            padding: 0 27% 0 27%!important;        
+        }
+    }
