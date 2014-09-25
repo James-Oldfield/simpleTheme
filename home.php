@@ -1,25 +1,48 @@
 <?php get_header(); ?>
 
 
-<div class="about text-center">
-    <h2>I design and build sleek, modern and responsive websites.</h2>
+<div class="text-center">
 
-    <div class="projects">
-        
-        <h4>CURRENT PROJECTS</h4>
+<!-- About me section -->
+  <div class="about">
+
+    <h2>I'm currently working as a freelance web developer in my free time; building everything from static portfolio-style webpages to fully fledged CMS sites.
+
+      <hr>
+
+    I love building modern, sleek and responsive sites and I have a strong passion for Wordpress development.</h2>
+
+  </div>
+
+<!-- Availability section -->
+  <div class="available">
+
+    <h2>I'm currently available <span>all year round</span> for bespoke web design and development projects.</h2>
+
+  </div>
+
+<!-- Hire me section -->
+  <div class="hire-me">
+
+        <a href="mailto:hi@james-oldfield.co" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/mail-white.svg" width="65px"></a>
+
         <hr>
+
+        <h4><a href="mailto:hi@james-oldfield.co" target="_blank">HIRE ME</a></h4>
+
+  </div>
+
+<!-- Projects section -->
+  <div class="projects">
+
+        <a href="/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/code.svg" width="65px"></a>
+
+        <hr>
+
+        <h4><a href="/" target="_blank">RECENT WORK</a></h4>
         
-        <div class="smiths">
-            <a href="http://smithsmagazine.co.uk" target="_blank">SMITHS MAGAZINE SITE</a>
-            <p>A custom responsive Wordpress site for [smiths] magazine.</p>
-        </div>
-        
-        <div class="minimis">
-            <a href="http://de-minimis-theme.tumblr.com/" target="_blank">DE-MINIMIS</a>
-            <p>A free responsive minimalist theme for Tumblr with custom options built in.</p>
-        </div>
-        
-    </div>
+  </div>
+
 </div>
             
 
