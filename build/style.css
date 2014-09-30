@@ -1,0 +1,75 @@
+body{font-family:'Open Sans',sans-serif}
+.single{padding:0 10%!important;background:#fff!important}
+::selection{background:#c0392b;color:#fff}
+::-moz-selection{background:#c0392b;color:#fff}
+strong{font-weight:900}
+.links a{font-size:18px;font-weight:900;color:#e74c3c;padding-left:10px;padding-right:10px}
+.icon{margin-top:30px}
+.name{padding:5px 0 0}
+.name h2 a{font-size:52px;font-weight:bolder;letter-spacing:.01em;text-transform:none;color:#3d4351}
+.name span{color:#e74c3c}
+.name h4{padding:30px 0 60px;font-style:italic;color:#e74c3c;font-size:28px}
+.header-links img{padding:5px;margin-top:15px;opacity:.5}
+.header-links img:hover{transition:opacity .5s ease;opacity:1}
+.about{padding-top:45px;padding-bottom:45px;width:100%;background-color:#e74c3c}
+.about p{color:#fff;padding:0 20px;font-size:18px;line-height:1.3em;margin-bottom:0}
+p.secondary{margin-top:30px;margin-bottom:0}
+.available{padding-top:45px;padding-bottom:45px;width:100%;background:#fff}
+.available p{margin-bottom:0;color:#000;padding:0 20px;font-size:18px;line-height:1.3em}
+.available p span{color:#e74c3c}
+.hire-me{padding-top:45px;padding-bottom:45px;background:#3d4351;position:relative}
+.hire-me:hover{background:#4d5563}
+.hire-me hr{margin:0;padding:0;border:none}
+.hire-me h4 a{font-size:22px;display:inline-block;color:#fff}
+.hire-me a:hover{color:#000}
+.hire-me span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
+.projects{padding-top:45px;padding-bottom:45px;background:#F4F0DE;position:relative}
+.projects:hover{background:#FFFDF7}
+.projects hr{margin:0;padding:0;border:none}
+.projects h4{font-size:22px;color:#3d4351}
+.projects h4:hover{color:#fff;text-decoration:none!important}
+.projects span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
+.btn-link:focus{outline:0!important}
+button.btn-link:hover{text-decoration:none}
+.work{display:none}
+.smiths{padding:35px 30px;background:#27ae60;position:relative}
+.smiths:hover{background:#45BD79}
+.smiths a,.smiths a:hover{color:#abebc6}
+.smiths p{color:#fff}
+.smiths span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
+.minimis{padding:35px 30px;background:#2980b9;position:relative}
+.minimis:hover{background:#4995C7}
+.minimis a,.minimis a:hover{color:#a9cce3}
+.minimis p{color:#fff}
+.minimis span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
+.single h4{font-size:24px;font-weight:900;margin:90px 0 0;padding:0;color:#000}
+.single hr{display:inline-block;border-bottom:solid 2px #e74c3c;width:30px;margin:10px 0 60px;padding:0}
+.home-page-post-loop{margin-bottom:100px}
+.home-page-post{padding:0 30px}
+.more h1{font-size:12px;border:1px solid #000;display:inline-block;padding:10px 30px;margin-bottom:90px}
+.more a{color:#000}
+.more h1:hover{color:#e74c3c;border:1px solid #e74c3c}
+span p{font-size:12px;text-transform:uppercase;font-weight:300}
+span p a{color:#e74c3c}
+span p a:hover{transition:opacity .25s ease;text-decoration:none}
+#content h2{font-weight:700;margin-bottom:50px}
+h2 a{text-transform:uppercase;font-weight:300}
+p a{border-bottom:1px #000 dotted}
+a{color:#e74c3c}
+a:hover{transition:color .25s ease;color:#000;text-decoration:none}
+.post{padding:50px 0}
+p{line-height:30px}
+#respond{margin:120px 0 0;font-weight:200}
+#respond h3{font-size:18px;color:#28282e;text-transform:uppercase}
+#respond small{font-weight:300}
+textarea{font-size:16px;color:#000}
+input#submit{color:#000;text-transform:uppercase}
+#author,#email,#url{color:#000}
+textarea#comment{height:200px;width:80%;background-color:#fff}
+.twitter{margin-bottom:10px}
+footer{background-color:#ecf0f1;color:#000}
+.small{color:#000;font-size:12px!important;font-family:'Open Sans',sans-serif,Helvetica,Arial;font-weight:100;padding:20px;display:inline-block}
+@media only screen and (min-width :768px){.home-page-post-loop{padding:0 15%!important}}
+@media only screen and (min-width :992px){.home-page-post-loop{padding:0 25%!important}
+.about p{padding:0 100px}}
+@media only screen and (min-width :1200px){.about p{padding:0 350px}}

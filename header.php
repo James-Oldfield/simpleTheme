@@ -12,7 +12,7 @@
             ?>
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:image" content="http://james-oldfield.co/wp-content/uploads/2014/08/icon1.png" />
+        <meta property="og:image" content="http://james-oldfield.co/wp-content/uploads/2014/09/icon.png" />
 
         <!--css-->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -37,7 +37,7 @@
         <div class="container text-center">
                 
             <div class="row icon">
-                <a href="/"><img src="<?php bloginfo('template_directory'); ?>/img/icon.svg" alt="8-bit character logo" width="250px"></a>
+                <a href="/"><img src="<?php bloginfo('template_directory'); ?>/img/icon.svg" alt="8-bit character header logo" width="250px"></a>
             </div>
             
         <!--Description & Name-->

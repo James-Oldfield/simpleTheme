@@ -6,18 +6,17 @@
   <!-- About section -->
   <div class="about">
 
-    <h2>I'm currently working as a freelance web developer in my free time; building everything from static portfolio-style webpages to fully fledged CMS sites.
+    <p>I'm currently working as a freelance web developer in my free time outside of uni; building everything from static portfolio-style web pages to fully fledged CMS sites.</p>
 
-      <hr>
 
-    I love building modern, sleek and responsive sites and I have a strong passion for Wordpress development.</h2>
+    <p class="secondary">I love building modern, sleek and responsive sites and I have a strong passion for Wordpress development.</p>
 
   </div>
 
   <!-- Availability section -->
   <div class="available">
 
-    <h2>Right now, i'm available <span>all year round</span> for bespoke web design and development projects.</h2>
+    <p>Right now, i'm available <span>all year round</span> for bespoke web design and development projects.</p>
 
   </div>
 
@@ -26,9 +25,7 @@
 
     <a href="mailto:hi@james-oldfield.co" target="_blank"><span></span>
 
-        <img src="<?php bloginfo('template_directory'); ?>/img/mail-white.svg" width="65px">
-
-          <hr>
+        <img src="<?php bloginfo('template_directory'); ?>/img/mail-white.svg" width="65px" alt="email icon">
 
         <h4><a href="mailto:hi@james-oldfield.co" target="_blank">HIRE ME</a></h4>
 
@@ -41,9 +38,7 @@
 
         <button class="btn-link"><span></span>
 
-          <img src="<?php bloginfo('template_directory'); ?>/img/code.svg" width="65px">
-
-          <hr>
+          <img src="<?php bloginfo('template_directory'); ?>/img/code.svg" width="65px" alt="Recent work icon">
 
           <h4>RECENT WORK</h4>
           
@@ -53,42 +48,38 @@
 
     <div class="work">
         <div class="smiths">
-            <a href="http://smithsmagazine.co.uk" target="_blank">SMITHS MAGAZINE SITE</a>
+            <a href="http://smithsmagazine.co.uk" target="_blank"><span></span>SMITHS MAGAZINE SITE</a>
             <p>A custom responsive Wordpress site for [smiths] magazine.</p>
         </div>
         
         <div class="minimis">
-            <a href="http://de-minimis-theme.tumblr.com/" target="_blank">DE-MINIMIS</a>
+            <a href="http://de-minimis-theme.tumblr.com" target="_blank"><span></span>DE-MINIMIS</a>
             <p>A free responsive minimalist theme for Tumblr with custom options built in.</p>
         </div>
     </div>
 
-</div>
-            
-
-<div class="col-lg-12 single">
     
-    <div class="text-center"><h4>BLOG</h4></div>
+    <div class="single">
+      <h4>BLOG POSTS</h4>
+      <hr>
+    </div>
 
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+      <!-- home page WP loop -->
+      <div class="home-page-post-loop">
 
-          <article class="post">
+       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-            
+
+          <article class="home-page-post">
+ 
+
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-
-              
-            <hr>  
-
-                <?php the_content() ?>   
-              
-            <hr>
             
             <span><p>
-              By <?php the_author(); ?> 
-              on <?php echo the_time('l, F jS, Y');?>
-              in <?php the_category( ', ' ); ?>.
+            <?php echo the_time('l, F jS, Y');?>
             </p></span>
+              
+            <hr>
 
           </article>
 
@@ -96,11 +87,17 @@
         <?php endwhile; else: ?>
           
           <div class="page-header">
-              <p>There aren't any entries to show.</p>
+              <p>Nothing here.</p>
           </div>
 
         <?php endif; ?>
 
+      </div>
+      <!-- end homepage wp loop -->
+
+<div id="instafeed">
+  
+  
 </div>
 
 <div class="text-center twitter">
@@ -108,4 +105,5 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 
+</div>
 <?php get_footer(); ?>
