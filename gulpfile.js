@@ -6,7 +6,7 @@ gulp.task('default', function() {
 });
 
 gulp.task('minify-css', function() {
-	gulp.src('style.css')
+	gulp.src('.pre-build/style.css')
 		.pipe(minifyCSS({keepBreaks:true}))
-		.pipe(gulp.dest('./build/'))
+		.pipe(gulp.dest(''))
 });
