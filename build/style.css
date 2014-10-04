@@ -32,6 +32,12 @@ p.secondary{margin-top:30px;margin-bottom:0}
 .btn-link:focus{outline:0!important}
 button.btn-link:hover{text-decoration:none}
 .work{display:none}
+.upriver{padding:35px 30px;background:#000;position:relative}
+.upriver:hover{background:#323232}
+.upriver a{color:#c43a3d}
+.upriver a:hover{color:#d06164}
+.upriver p{color:#fff}
+.upriver span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
 .smiths{padding:35px 30px;background:#27ae60;position:relative}
 .smiths:hover{background:#45BD79}
 .smiths a,.smiths a:hover{color:#abebc6}

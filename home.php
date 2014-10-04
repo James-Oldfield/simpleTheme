@@ -47,6 +47,11 @@
   </div>
 
     <div class="work">
+        <div class="upriver">
+            <a href="http://doc.gold.ac.uk/~joldf001/UpRiverSite/index.html" target="_blank"><span></span>UP RIVER SITE</a>
+            <p>A website I recently built for Up River along with a uniform big cartel theme developed with Dugway.</p>
+        </div>
+
         <div class="smiths">
             <a href="http://smithsmagazine.co.uk" target="_blank"><span></span>SMITHS MAGAZINE SITE</a>
             <p>A custom responsive Wordpress site for [smiths] magazine.</p>

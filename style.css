@@ -206,6 +206,37 @@ button.btn-link:hover{
     display: none;
 }
 
+.upriver{
+    padding: 35px 30px 35px 30px;
+    background: #000;
+    position: relative;
+}
+
+.upriver:hover{
+    background: #323232;
+}
+
+.upriver a{
+    color: #c43a3d;
+}
+
+.upriver a:hover{
+    color: #d06164;
+}
+
+.upriver p{
+    color: #fff;
+}
+
+.upriver span{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .smiths{
     padding: 35px 30px 35px 30px;
     background: #27ae60;
