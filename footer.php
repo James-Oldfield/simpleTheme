@@ -26,6 +26,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/main.js"></script>
 
+        <!-- Hide/show projects on click -->
           <script>
            
           $(document).ready(function(){
@@ -39,6 +40,30 @@
            
           });
            
+          </script>
+
+          <script type="text/javascript">
+            var str = 
+            "<h2>HI<span>.</span><br> I'M JAMES<span>.</span></h2> <h4>Web Developer/Designer & geek.</h4>" ,
+                i = 0,
+                isTag,
+                text; 
+
+            (function type() {
+                text = str.slice(0, ++i);
+                if (text === str) return;
+
+                document.getElementById('type').innerHTML = text + '|';
+
+                var char = text.slice(-1);
+                if( char === '<' ) isTag = true;
+                if( char === '>' ) isTag = false;
+
+                if (isTag) return type();
+                setTimeout(type, 100);
+
+            }());
+
           </script>
 
         <!--google analytics-->

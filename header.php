@@ -16,10 +16,10 @@
 
         <!--css-->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/style.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/.pre-build/style.css" media="screen" />
         
         <!--fonts-->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
         
         <!--Favicon-->
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/icon.ico" />
@@ -41,9 +41,7 @@
             </div>
             
         <!--Description & Name-->
-            <div class="name">
-                <h2><a href="/">Hi<span>.</span><br> I'm James<span>.</span></a></h2>
-                <h4>Web Developer/Designer &amp; geek.</h4>
+            <div class="name" id="type">
             </div>
  
         </div>

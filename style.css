@@ -1,4 +1,4 @@
-body{font-family:'Open Sans',sans-serif}
+body{font-family:'Droid Sans Mono',}
 .single{padding:0 10%!important;background:#fff!important}
 ::selection{background:#c0392b;color:#fff}
 ::-moz-selection{background:#c0392b;color:#fff}
@@ -6,9 +6,19 @@ strong{font-weight:900}
 .links a{font-size:18px;font-weight:900;color:#e74c3c;padding-left:10px;padding-right:10px}
 .icon{margin-top:30px}
 .name{padding:5px 0 0}
-.name h2 a{font-size:52px;font-weight:bolder;letter-spacing:.01em;text-transform:none;color:#3d4351}
+.name h2{font-size:52px;font-weight:500;letter-spacing:.01em;text-transform:none;color:#3d4351}
 .name span{color:#e74c3c}
-.name h4{padding:30px 0 60px;font-style:italic;color:#e74c3c;font-size:28px}
+.name h4{padding:30px 0 60px;font-style:italic;color:#e74c3c;font-size:26px}
+.typed-cursor{opacity:1;-webkit-animation:blink .7s infinite;-moz-animation:blink .7s infinite;animation:blink .7s infinite}
+@keyframes blink{0%{opacity:1}
+50%{opacity:0}
+100%{opacity:1}}
+@-webkit-keyframes blink{0%{opacity:1}
+50%{opacity:0}
+100%{opacity:1}}
+@-moz-keyframes blink{0%{opacity:1}
+50%{opacity:0}
+100%{opacity:1}}
 .header-links img{padding:5px;margin-top:15px;opacity:.5}
 .header-links img:hover{transition:opacity .5s ease;opacity:1}
 .about{padding-top:45px;padding-bottom:45px;width:100%;background-color:#e74c3c}
@@ -75,7 +85,7 @@ input#submit{color:#000;text-transform:uppercase}
 textarea#comment{height:200px;width:80%;background-color:#fff}
 .twitter{margin-bottom:10px;display:inline-block}
 footer{background-color:#ecf0f1;color:#000}
-.small{color:#000;font-size:12px!important;font-family:'Open Sans',sans-serif,Helvetica,Arial;font-weight:100;padding:20px;display:inline-block}
+.small{color:#000;font-size:12px!important;font-family:'Droid Sans Mono',;font-weight:300;padding:20px;display:inline-block;text-transform:uppercase}
 @media only screen and (min-width :768px){.home-page-post-loop{padding:0 15%!important}}
 @media only screen and (min-width :992px){.home-page-post-loop{padding:0 25%!important}
 .about p{padding:0 100px}}
