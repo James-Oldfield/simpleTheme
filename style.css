@@ -19,6 +19,7 @@ strong{font-weight:900}
 @-moz-keyframes blink{0%{opacity:1}
 50%{opacity:0}
 100%{opacity:1}}
+.container-header{margin-bottom:45px}
 .main{margin-top:45px}
 .header-links img{padding:5px;margin-top:15px;opacity:.5}
 .header-links img:hover{transition:opacity .5s ease;opacity:1}

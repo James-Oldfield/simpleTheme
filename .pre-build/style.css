@@ -93,6 +93,10 @@ strong{
     100% { opacity:1; }
 }
 
+.container-header{
+    margin-bottom: 45px;
+}
+
 .main{
     margin-top: 45px;
 }
