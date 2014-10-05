@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div class="text-center">
+<div class="main text-center">
 
   <!-- About section -->
   <div class="about">

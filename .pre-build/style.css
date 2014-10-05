@@ -41,7 +41,7 @@ strong{
     padding-right: 10px; }
 
 .icon {
-    margin-top: 30px; }
+    margin: 30px 0 30px; }
 
 .name {
     padding: 5px 0 0px 0;
@@ -54,6 +54,7 @@ strong{
     letter-spacing: 0.01em;
     text-transform: none;
     color: #3d4351;
+    display: inline;
 }
 
 .name span{
@@ -65,9 +66,11 @@ strong{
     font-style: italic;
     color: #e74c3c;
     font-size: 26px;
+    display: inline;
 }
 
 .cursor{
+    font-size: 30px;
     color: #000!important;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -88,6 +91,10 @@ strong{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+.main{
+    margin-top: 30px;
 }
 
 .header-links img{

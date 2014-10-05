@@ -43,5 +43,6 @@
         <!--Description & Name-->
             <div class="name" id="type">
             </div>
+            <span class="cursor">|</span>
  
         </div>

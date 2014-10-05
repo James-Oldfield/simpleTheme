@@ -44,7 +44,7 @@
 
           <script type="text/javascript">
             var str = 
-            "<h2>HI<span>.</span><br> I'M JAMES<span>.</span></h2> <h4>Web Developer/Designer & geek.</h4>" ,
+            "<h2>HI<span>.</span><br> I'M JAMES<span>.</span></h2> <br><br><br> <h4 id='cursor'>Web Developer/Designer & geek.</h4>" ,
                 i = 0,
                 isTag,
                 text; 
@@ -53,7 +53,7 @@
                 text = str.slice(0, ++i);
                 if (text === str) return;
 
-                document.getElementById('type').innerHTML = text + '|';
+                document.getElementById('type').innerHTML = text;
 
                 var char = text.slice(-1);
                 if( char === '<' ) isTag = true;
@@ -63,6 +63,8 @@
                 setTimeout(type, 100);
 
             }());
+
+          // document.getElementById(id).style.property=new style
 
           </script>
 
