@@ -64,8 +64,6 @@
 
             }());
 
-          // document.getElementById(id).style.property=new style
-
           </script>
 
         <!--google analytics-->
