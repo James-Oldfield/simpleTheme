@@ -11,10 +11,8 @@
             ?>
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:image" content="http://james-oldfield.co/wp-content/uploads/2014/09/icon.png" />
 
         <!--css-->
-        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/.pre-build/style.css" media="screen" />
         
         <!--fonts-->
@@ -22,8 +20,6 @@
         
         <!--Favicon-->
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/icon.ico" />
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         
         <?php wp_head()?>
     </head>
@@ -35,7 +31,7 @@
 <div class="nav">
   <ul>
     <li><a href="#">HOME</a></li>
-    <li><a href="#">WORK</a></li>
+    <li><a href="/work">WORK</a></li>
     <li><a href="#">BLOG</a></li>
     <li><a href="#">CODE</a></li>
     <li><a href="#">CONTACT</a></li>
