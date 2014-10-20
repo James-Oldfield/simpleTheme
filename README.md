@@ -1,1 +1,4 @@
-Source code for my personal Wordpress blog site.
+#Simple theme
+
+Source code for a simple, clean personal theme for WP with angularJS integration.
+
