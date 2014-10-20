@@ -78,6 +78,10 @@ ul{
     color: #fff;
 }
 
+.home p .first{
+    margin-top: 0px;
+}
+
 /*WORK PAGE*/
 .post-thumb{
     margin-bottom: 40px;
