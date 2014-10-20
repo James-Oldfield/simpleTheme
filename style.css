@@ -1,94 +1,34 @@
-body{font-family:'Droid Sans Mono'!important}
-.single{padding:0 10%!important;background:#fff!important}
-::selection{background:#c0392b;color:#fff}
-::-moz-selection{background:#c0392b;color:#fff}
-strong{font-weight:900}
-.links a{font-size:18px;font-weight:900;color:#e74c3c;padding-left:10px;padding-right:10px}
-.icon{margin:30px 0}
-.name{padding:5px 0 0;display:inline}
-.name h2{font-size:52px;font-weight:bolder;letter-spacing:.01em;text-transform:none;color:#3d4351;display:inline}
-.name span{color:#e74c3c}
-.name h4{padding:30px 0 60px;font-style:italic;color:#e74c3c;font-size:26px;display:inline}
-.cursor{font-size:30px;color:#000!important;opacity:1;-webkit-animation:blink .7s infinite;-moz-animation:blink .7s infinite;animation:blink .7s infinite}
-@keyframes blink{0%{opacity:1}
-50%{opacity:0}
-100%{opacity:1}}
-@-webkit-keyframes blink{0%{opacity:1}
-50%{opacity:0}
-100%{opacity:1}}
-@-moz-keyframes blink{0%{opacity:1}
-50%{opacity:0}
-100%{opacity:1}}
-.container-header{margin-bottom:45px}
-.main{margin-top:45px}
-.header-links img{padding:5px;margin-top:15px;opacity:.5}
-.header-links img:hover{transition:opacity .5s ease;opacity:1}
-.about{padding-top:45px;padding-bottom:45px;width:100%;background-color:#e74c3c}
-.about p{color:#fff;padding:0 20px;font-size:18px;line-height:1.3em;margin-bottom:0}
-p.secondary{margin-top:30px;margin-bottom:0}
-.available{padding-top:45px;padding-bottom:45px;width:100%;background:#fff}
-.available p{margin-bottom:0;color:#000;padding:0 20px;font-size:18px;line-height:1.3em}
-.available p span{color:#e74c3c}
-.hire-me{padding-top:45px;padding-bottom:45px;background:#3d4351;position:relative}
-.hire-me:hover{background:#4d5563}
-.hire-me hr{margin:0;padding:0;border:none}
-.hire-me h4 a{font-size:22px;display:inline-block;color:#fff}
-.hire-me a:hover{color:#000}
-.hire-me span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
-.projects{padding-top:45px;padding-bottom:45px;background:#F4F0DE;position:relative}
-.projects:hover{background:#FFFDF7}
-.projects hr{margin:0;padding:0;border:none}
-.projects h4{font-size:22px;color:#3d4351}
-.projects h4:hover{color:#fff;text-decoration:none!important}
-.projects span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
-.btn-link:focus{outline:0!important}
-.btn-link{text-decoration:none!important}
-button.btn-link:hover{text-decoration:none}
-.work{display:none}
-.upriver{padding:35px 30px;background:#000;position:relative}
-.upriver:hover{background:#323232}
-.upriver a{color:#c43a3d}
-.upriver a:hover{color:#d06164}
-.upriver p{color:#fff}
-.upriver span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
-.smiths{padding:35px 30px;background:#27ae60;position:relative}
-.smiths:hover{background:#45BD79}
-.smiths a,.smiths a:hover{color:#abebc6}
-.smiths p{color:#fff}
-.smiths span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
-.minimis{padding:35px 30px;background:#2980b9;position:relative}
-.minimis:hover{background:#4995C7}
-.minimis a,.minimis a:hover{color:#a9cce3}
-.minimis p{color:#fff}
-.minimis span{position:absolute;width:100%;height:100%;top:0;left:0;z-index:1}
-.single h4{font-size:24px;font-weight:900;margin:90px 0 0;padding:0;color:#000}
-.single hr{display:inline-block;border-bottom:solid 2px #e74c3c;width:30px;margin:10px 0 60px;padding:0}
-.home-page-post-loop{margin-bottom:100px}
-.home-page-post{padding:0 30px}
-.more h1{font-size:12px;border:1px solid #000;display:inline-block;padding:10px 30px;margin-bottom:90px}
-.more a{color:#000}
-.more h1:hover{color:#e74c3c;border:1px solid #e74c3c}
-span p{font-size:12px;text-transform:uppercase;font-weight:300}
-span p a{color:#e74c3c}
-span p a:hover{transition:opacity .25s ease;text-decoration:none}
-#content h2{font-weight:700;margin-bottom:50px}
-h2 a{text-transform:uppercase;font-weight:300}
-p a{border-bottom:1px #000 dotted}
-a{color:#e74c3c}
-a:hover{transition:color .25s ease;color:#000;text-decoration:none}
-.post{padding:50px 0}
-p{line-height:30px}
-#respond{margin:120px 0 0;font-weight:200}
-#respond h3{font-size:18px;color:#28282e;text-transform:uppercase}
-#respond small{font-weight:300}
-textarea{font-size:16px;color:#000}
-input#submit{color:#000;text-transform:uppercase}
-#author,#email,#url{color:#000}
-textarea#comment{height:200px;width:80%;background-color:#fff}
-.twitter{margin-bottom:10px;display:inline-block}
-footer{background-color:#ecf0f1;color:#000}
-.small{color:#000;font-size:12px!important;font-family:'Droid Sans Mono',;font-weight:300;padding:20px;display:inline-block;text-transform:uppercase}
-@media only screen and (min-width :768px){.home-page-post-loop{padding:0 15%!important}}
-@media only screen and (min-width :992px){.home-page-post-loop{padding:0 25%!important}
-.about p{padding:0 100px}}
-@media only screen and (min-width :1200px){.about p{padding:0 350px}}
+body{font-family:'Droid Sans Mono'!important;margin:0 20px}
+a{text-decoration:none}
+ul{list-style:none}
+::selection{background:#e74c3c;color:#fff}
+::-moz-selection{background:#e74c3c;color:#fff}
+.main{margin-top:40px}
+.nav{text-align:center;padding:0;margin:0}
+.nav ul{padding:0;margin-top:40px;margin-bottom:40px}
+.nav li{display:inline-block}
+.nav a{color:#000;text-decoration:none}
+.nav a:hover{transition:background-color .25s ease;color:#fff;background:red}
+.home a{text-decoration:none;color:#e74c3c}
+.home a:hover{background:red;transition:background-color .25s ease;color:#fff}
+.post-thumb{margin-bottom:40px;float:left;width:100%}
+.work a h1{display:inline-block;text-transform:uppercase;font-size:12px;color:#000;text-decoration:none}
+.work a h1:hover{background:red;transition:background-color .25s ease;color:#fff}
+.work img{width:100%!important;height:auto}
+.post-thumb img:hover{opacity:.8}
+.blogPost{margin-bottom:100px;border-bottom:1px solid #000}
+.blog a h1{color:#000;text-transform:uppercase;display:inline-block;font-weight:bolder;font-size:18px;margin:25px 0 50px}
+.blog a h1:hover{background:red;transition:background-color .25s ease;color:#fff}
+.blog p{font-size:14px;color:#474747}
+.blog p a{text-decoration:none;color:#e74c3c}
+.blog p a:hover{transition:opacity .25s ease;opacity:.5}
+.contact a{text-decoration:none;color:#e74c3c}
+.contact a:hover{background:red;transition:background-color .25s ease;color:#fff}
+.contact li{margin-bottom:10px}
+@media only screen and (min-width :768px){body{font-family:'Droid Sans Mono'!important;margin:0 150px}
+.nav{text-align:left;position:fixed;top:0;left:10px;height:100%;width:50px}
+.nav li{list-style:none;display:block}
+.nav li a{text-decoration:none}
+.main{position:relative;margin-left:125px}
+img{max-width:100%!important;height:auto}}
+@media only screen and (min-width :1000px){.post-thumb{float:left;width:33.3%;margin-bottom:0}}
