@@ -19,7 +19,7 @@
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
         
         <!--Favicon-->
-        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/icon.ico" />
+        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico" />
         
         <?php wp_head()?>
     </head>
@@ -30,10 +30,10 @@
 
 <div class="nav">
   <ul>
-    <li><a href="#">HOME</a></li>
+    <li><a href="/">HOME</a></li>
     <li><a href="/work">WORK</a></li>
-    <li><a href="#">BLOG</a></li>
-    <li><a href="#">CODE</a></li>
-    <li><a href="#">CONTACT</a></li>
+    <li><a href="/blog">BLOG</a></li>
+    <li><a href="http://github.com/James-Oldfield">CODE</a></li>
+    <li><a href="/contact">CONTACT</a></li>
   </ul>
 </div>

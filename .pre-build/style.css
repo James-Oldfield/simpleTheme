@@ -12,11 +12,30 @@ Text Domain: personal
 /*GLOBAL*/
 body {
     font-family: 'Droid Sans Mono'!important;
-    margin: 0 100px 0 100px;
+    margin: 0 20px 0 20px;
 }
 
 a{
     text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/*selection*/
+::selection {
+    background: #e74c3c; /* WebKit/Blink Browsers */
+    color: #fff;
+}
+::-moz-selection {
+    background: #e74c3c; /* Gecko Browsers */
+    color: #fff;
+}
+
+.main{
+    margin-top: 40px;
 }
 
 /*NAVBAR*/
@@ -47,8 +66,21 @@ a{
     background: red;
 }
 
+/*HOME*/
+.home a{
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+.home a:hover{
+    background: red;
+    transition: background-color 0.25s ease;
+    color: #fff;
+}
+
 /*WORK PAGE*/
 .post-thumb{
+    margin-bottom: 40px;
     float: left;
     width: 100%;
 }
@@ -67,7 +99,7 @@ a{
     color: #fff;
 }
 
-img{
+.work img{
     width: 100%!important;
     height: auto;
 }
@@ -82,22 +114,13 @@ img{
     border-bottom: 1px solid #000;
 }
 
-.blog p a{
-    color: #e74c3c;
-}
-
-.blog p a:hover{
-    transition: opacity 0.25s ease;
-    opacity: 0.8;
-}
-
 .blog a h1{
     color: #000;
     text-transform: uppercase;
     display: inline-block;
     font-weight: bolder;
     font-size: 18px;
-    margin: 50px 0 50px 0;
+    margin: 25px 0 50px 0;
 }
 
 .blog a h1:hover{
@@ -111,9 +134,39 @@ img{
     color: #474747;
 }
 
-/*MEDIA QUERIES*/
+.blog p a{
+    text-decoration: none;
+    color: #e74c3c;
+}
 
+.blog p a:hover{
+    transition: opacity 0.25s ease;
+    opacity: 0.5;
+}
+
+/*CONTACT*/
+.contact a{
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+.contact a:hover{
+    background: red;
+    transition: background-color 0.25s ease;
+    color: #fff;
+}
+
+.contact li{
+    margin-bottom: 10px;
+}
+
+/*MEDIA QUERIES*/
 @media only screen and (min-width :768px) {
+    body {
+        font-family: 'Droid Sans Mono'!important;
+        margin: 0 150px 0 150px;
+    }
+
     .nav {
         text-align: left;
         position: fixed;
@@ -135,14 +188,18 @@ img{
       margin-left: 125px;
     }
 
-    .post-thumb{
-        float: left;
-        width: 33%;
-    }
-
     img{
         max-width: 100%!important;
         height: auto;
+    }
+}
+
+
+@media only screen and (min-width :1000px) {
+    .post-thumb{
+        float: left;
+        width: 33.3%;
+        margin-bottom: 0;
     }
 }
 
