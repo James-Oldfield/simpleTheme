@@ -12,7 +12,7 @@ Text Domain: personal
 /*GLOBAL*/
 body {
     font-family: 'Droid Sans Mono'!important;
-    margin: 40px;
+    margin: 0 100px 0 100px;
 }
 
 a{
@@ -77,9 +77,38 @@ img{
 }
 
 /*BLOG*/
-.blog h1{
-    color: blue;
-    font-size: 21px;
+.blogPost{
+    margin-bottom: 100px;
+    border-bottom: 1px solid #000;
+}
+
+.blog p a{
+    color: #e74c3c;
+}
+
+.blog p a:hover{
+    transition: opacity 0.25s ease;
+    opacity: 0.8;
+}
+
+.blog a h1{
+    color: #000;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 50px 0 50px 0;
+}
+
+.blog a h1:hover{
+    background: red;
+    transition: background-color 0.25s ease;
+    color: #fff;
+}
+
+.blog p{
+    font-size: 14px;
+    color: #474747;
 }
 
 /*MEDIA QUERIES*/

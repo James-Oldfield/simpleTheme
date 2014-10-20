@@ -10,7 +10,7 @@ Template Name: blog template
 <?php
 query_posts('cat=17');
 while (have_posts()) : the_post(); ?>
-        <div class="blogTitle">
+        <div class="blogPost">
 
             <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><h1><?php the_title(); ?></h1></a>
             <p><?php the_content(); ?></p>
