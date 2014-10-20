@@ -78,8 +78,8 @@ ul{
     color: #fff;
 }
 
-.home p .first{
-    margin-top: 0px;
+p.first{
+    margin: 0px 0 16px 0px;
 }
 
 /*WORK PAGE*/
@@ -158,6 +158,10 @@ ul{
     background: red;
     transition: background-color 0.25s ease;
     color: #fff;
+}
+
+.contact ul{
+    padding-left: 0px;
 }
 
 .contact li{
