@@ -15,7 +15,30 @@
         </script>
         <!--end google analy-->
 
+          <script type="text/javascript">
+            var str = 
+            "<p>Hi<span>.</span><br>My name's James<span>.</span><br>I'm a freelance web developer and designer based in London, UK.<br>Feel free to check out some of my <a href='/work'><span>work</span></a>, read my <a href='/blog'><span>blog</span></a> or <a href='mailto:hi@james-oldfield.co'><span>hire me</span></a>.</p>",
+                i = 0,
+                isTag,
+                text; 
+
+            (function type() {
+                text = str.slice(0, ++i);
+                if (text === str) return;
+
+                document.getElementById('type').innerHTML = text;
+
+                var char = text.slice(-1);
+                if( char === '<' ) isTag = true;
+                if( char === '>' ) isTag = false;
+
+                if (isTag) return type();
+                setTimeout(type, 50);
+
+            }());
+          </script>
+
       </footer>
-      
+
     </body>
 </html>
