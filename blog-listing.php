@@ -10,7 +10,7 @@ Template Name: blog template
 <button id="readMore">READ MORE</button>
 
 <?php
-query_posts('cat=17');
+query_posts('cat=16');
 while (have_posts()) : the_post(); ?>
         <div class="blogPost">
 
