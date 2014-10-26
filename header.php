@@ -31,8 +31,8 @@
 <div class="nav">
   <ul>
     <li><a href="/">HOME</a></li>
-    <li><a href="/work">WORK</a></li>
     <li><a href="/blog">BLOG</a></li>
+    <li><a href="/work">WORK</a></li>
     <li><a href="http://github.com/James-Oldfield">CODE</a></li>
     <li><a href="/contact">CONTACT</a></li>
   </ul>
