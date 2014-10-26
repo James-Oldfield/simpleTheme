@@ -36,6 +36,7 @@ p.first{margin:0 0 16px}
 .blog p{font-size:14px;color:#474747}
 .blog p a{text-decoration:none;color:#e74c3c}
 .blog p a:hover{transition:opacity .25s ease;opacity:.5}
+.backButton{color:red}
 .contact a{text-decoration:none;color:#e74c3c}
 .contact a:hover{background:red;transition:background-color .25s ease;color:#fff}
 .contact ul{padding-left:0}

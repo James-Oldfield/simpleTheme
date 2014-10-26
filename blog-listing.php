@@ -8,7 +8,7 @@ Template Name: blog template
 <div class="main blog">
 
 <?php
-query_posts('cat=16');
+query_posts('cat=17');
 while (have_posts()) : the_post(); ?>
         <div class="blogPost">
 
