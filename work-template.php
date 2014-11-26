@@ -5,19 +5,20 @@ Template Name: Work template
 
 <?php get_header(); ?>
 
-<div class="main work">
+<div class="wrapper">
+	<div class="main work">
 
-<?php
-query_posts('cat=17');
-while (have_posts()) : the_post(); ?>
-        <div class="post-thumb">
+	<?php
+	query_posts('cat=17');
+	while (have_posts()) : the_post(); ?>
+	        <div class="post-thumb">
 
-            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('post-thumb'); ?></a>
-            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><span class="title"><h1><?php the_title(); ?></h1></span></a>
-            
-        </div>    
-<?php endwhile; ?>
-
+	            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('post-thumb'); ?></a>
+	            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><h1><?php the_title(); ?></h1></a>
+	            
+	        </div>    
+	<?php endwhile; ?>
+	</div>
 </div>
 
 <?php get_footer(); ?>
