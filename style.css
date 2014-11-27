@@ -37,9 +37,10 @@ p.first{margin:0 0 16px}
 .blogPost{margin-bottom:100px;border-bottom:1px solid #000}
 .blog a h1{color:#000;text-transform:uppercase;display:inline-block;font-weight:bolder;font-size:18px;margin:25px 0 50px}
 .blog a h1:hover{background:red;transition:background-color .25s ease;color:#fff}
-.blog p{font-size:14px;color:#474747}
+.blog p{font-size:14px;color:#474747;line-height: 1.75em;margin: 40px 0;}
 .blog p a{text-decoration:none;color:#e74c3c}
 .blog p a:hover{transition:opacity .25s ease;opacity:.5}
+.blog strong{color: #545454;border-bottom:1px solid #d3d3d3;padding-bottom:5px;}
 .backButton{color:red}
 .contact a{text-decoration:none;color:#e74c3c}
 .contact a:hover{background:red;transition:background-color .25s ease;color:#fff}
