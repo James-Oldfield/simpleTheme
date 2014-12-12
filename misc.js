@@ -23,6 +23,6 @@
 
 // FADE IN
 $( document ).ready(function() {
-  $( ".about" ).delay(1200).fadeIn( 400 );
-  $( ".homeGrid" ).delay(1400).fadeIn( 400 );
+  $( ".about" ).delay(1200).fadeIn();
+  $( ".homeGrid" ).delay(1600).fadeIn();
 });

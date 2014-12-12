@@ -14,11 +14,10 @@ ul{list-style:none}
 .home p{display:inline;line-height:1.655}
 .home a span,.home span{text-decoration:none;color:#e74c3c}
 .home a span:hover{background:red;transition:background-color .25s ease;color:#fff;z-index:9999}
-.homeGrid{opacity:0;}
 .homeGrid img{max-width: 100%;height:auto;}
 .main a span{text-decoration:none;color:#e74c3c}
 .main a span:hover{background:red;transition:background-color .25s ease;color:#fff;z-index:9999}
-.about{opacity: 0;margin-bottom:75px;}
+.about{margin-bottom:75px;}
 .cursor{z-index:-9999;display:inline;top:40px!important;font-size:16px;color:#000!important;opacity:1;-webkit-animation:blink .9s infinite;-moz-animation:blink .9s infinite;animation:blink .9s infinite}
 @keyframes blink{0%{opacity:1}
 50%{opacity:0}
