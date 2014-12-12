@@ -9,7 +9,7 @@
 		</div>
 		<div class="homeGrid">
 		<?php
-		query_posts('cat=15');
+		query_posts('cat=19');
 		while (have_posts()) : the_post(); ?>
 		        <div class="post-thumb">
 		            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('post-thumb'); ?></a>
