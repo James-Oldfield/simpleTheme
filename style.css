@@ -14,6 +14,7 @@ ul{list-style:none}
 .home p{display:inline;line-height:1.655}
 .home a span,.home span{text-decoration:none;color:#e74c3c}
 .home a span:hover{background:red;transition:background-color .25s ease;color:#fff;z-index:9999}
+.homeGrid{opacity:0;}
 .homeGrid img{max-width: 100%;height:auto;}
 .main a span{text-decoration:none;color:#e74c3c}
 .main a span:hover{background:red;transition:background-color .25s ease;color:#fff;z-index:9999}
