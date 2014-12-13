@@ -5,7 +5,8 @@
 		<div class="home" id="type"></div>
 		<div class="cursor">|</div>
 		<div class="about">
-			<p>I'm a freelance web developer and designer based in London, UK.<br>Feel free to check out some of my <a href='/work'><span>work</span></a>, read my <a href='/blog'><span>blog</span></a> or <a href='mailto:hi@james-oldfield.co'><span>hire me</span></a>.</p>
+			<p>I'm a freelance web developer and designer based in London, UK.</p>
+			<p>Full-stack Javascript apps are rocking my world at the minute and I'm generally fascinated by the application of code and generative algorithms in the visual arts/design. </p>
 		</div>
 		<div class="homeGrid">
 		<?php

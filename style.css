@@ -51,7 +51,7 @@ p.first{margin:0 0 16px}
 .nav{text-align:left;position:fixed;top:0;left:50px;height:100%;width:50px}
 .nav li{list-style:none;display:block}
 .nav li a{text-decoration:none}
-.main{position:relative;}
+.main{position:relative;width:75%;}
 .wrapper{margin-left:150px;margin-left:13%;margin-right:13%;}
 img{max-width:100%!important;height:auto}}
-@media only screen and (min-width :1000px){.post-thumb{float:left;width:32%;margin-bottom:0}}
+@media only screen and (min-width :1000px){.post-thumb{float:left;width:48%;margin-bottom:0}}
