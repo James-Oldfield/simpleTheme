@@ -5,8 +5,8 @@
 		<div class="home" id="type"></div>
 		<div class="cursor">|</div>
 		<div class="about">
-			<p>I'm a freelance web developer and designer based in London, UK.</p>
-			<p>Full-stack Javascript apps are rocking my world at the minute and I'm generally fascinated by the application of code and generative algorithms in the visual arts/design. </p>
+			<p>I'm a web developer and designer based in London, UK - Currently <span><a href="/contact">available</a></span> for freelance commissions.</p>
+			<p>The application of code and generative algorithms in the visual arts/design is something i'm really interested in. </p>
 		</div>
 		<div class="homeGrid">
 		<?php
